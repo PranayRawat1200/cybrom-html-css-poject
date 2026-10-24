@@ -59,10 +59,12 @@ body{
     background-color: black;
     color: white;
     margin-top: 40px;
-    
+    border: none;    
 }
+
 .left button:hover{
     color: black;
+    border: none;
     background-color: orange;
 }
 .right img{
@@ -83,11 +85,22 @@ body{
 .right{
     width: 500px;
 }
+#skills{
+    text-align: center;
+}
+#cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
 .cards{
+    
     border: 1px solid white;
     border-radius: 20px;
     height: 55vh;
     width: 20vw;
     padding: 10px;
+    margin: 90px;
     text-align: center;
 }
